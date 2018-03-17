@@ -24,7 +24,15 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         
     }
-
+    override func viewWillDisappear(_ animated: Bool) {
+        
+    }
+    override func viewWillAppear(_ animated: Bool) {
+        
+    }
+    override func viewWillAppear(_ animated: Bool) {
+        
+    }
     @IBAction func UIButton(_ sender: Any) {
        UILabel.text = UITextField.text
     
